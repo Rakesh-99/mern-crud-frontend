@@ -1,0 +1,38 @@
+.editBackButton {
+  background-color: rgb(128, 202, 16);
+  text-align: center;
+  padding: 8px 5px;
+  color: #fff;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.1s;
+  width: 357px;
+  margin-top: 10px;
+  display: inherit;
+  transition: 0.1s;
+}
+.editBackButton:active {
+  background-color: rgb(90, 146, 6);
+  transition: 0.1s;
+}
+
+@media screen and (max-width: 480px) {
+  .editBackButton {
+    width: 306px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .editBackButton {
+    width: 272px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .editBackButton {
+    width: 227px;
+  }
+  .formController from h1 {
+    font-size: 27px;
+  }
+}

@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.backButton {
+  background-color: rgb(128, 202, 16);
+  text-align: center;
+  padding: 8px 5px;
+  color: #fff;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.1s;
+  width: 357px;
+  margin-top: 10px;
+}
+.backButton:active {
+  background-color: rgb(90, 146, 6);
+  transition: 0.1s;
+}
+.backButton:link {
+  text-decoration: none;
+}
+form h1 {
+  margin: 10px 0;
+  color: gray;
+  font-weight: 500;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  box-shadow: 1px 1px 10px 1px grey;
+  padding: 1rem 4rem;
+  border-radius: 5px;
+}
+form input {
+  margin: 10px 0;
+  padding: 8px 5px;
+  outline: none;
+  width: 350px;
+}
+form button {
+  width: 365px;
+  padding: 10px 5px;
+  background-color: rgb(17, 92, 231);
+  color: #fff;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.1s;
+}
+form button:active {
+  background-color: rgb(6, 48, 128);
+  transition: 0.1s;
+}
+form select {
+  width: 365px;
+  padding: 8px 5px;
+}
+
+@media screen and (max-width: 480px) {
+  form {
+    width: 300px;
+  }
+  form input {
+    width: 300px;
+  }
+  form button {
+    width: 315px;
+  }
+  form select {
+    width: 315px;
+  }
+  .backButton {
+    width: 306px;
+  }
+}
+@media screen and (max-width: 450px) {
+  form {
+    width: 265px;
+  }
+  form input {
+    width: 265px;
+  }
+  form button {
+    width: 280px;
+  }
+  form select {
+    width: 280px;
+  }
+  .backButton {
+    width: 272px;
+  }
+}
+@media screen and (max-width: 425px) {
+  form {
+    width: 220px;
+  }
+  form input {
+    width: 220px;
+  }
+  form button {
+    width: 235px;
+  }
+  form select {
+    width: 235px;
+  }
+   .backButton {
+    width: 227px;
+  }
+}

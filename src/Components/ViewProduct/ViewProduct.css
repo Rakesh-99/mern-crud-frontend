@@ -1,0 +1,81 @@
+.viewProduct {
+  width: 100%;
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.viewProduct h2 {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.showData {
+  width: 320px;
+  border: 1px solid grey;
+  margin: 1rem;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 3px 10px 10px grey;
+}
+.showData .view {
+  margin: 10px 0;
+}
+.showData .productThumbnail {
+  width: 100%;
+  text-align: center;
+}
+.showData .productThumbnail img {
+  width: 70%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.showData .productDescription {
+  color: rgb(71, 71, 71);
+}
+.showData .btns {
+  text-align: right;
+}
+.showData .editBtn {
+  background-color: cornflowerblue;
+  padding: 9px 25px;
+  margin: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+.btns a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.showData .btns .delete {
+  background-color: red;
+  color: #fff;
+  margin: 5px 10px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.showData .productPrice {
+  text-align: right;
+}
+.createBtnContainer {
+  width: 100%;
+  text-align: center;
+  margin: 20px 0;
+}
+.createBtnContainer .createBtn {
+  background-color: royalblue;
+  padding: 8px 20px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+.createBtnContainer a {
+  text-decoration: none;
+}
+.showData .productCategory {
+  font-size: 10px;
+}
